@@ -3,7 +3,7 @@
 
 # DataInt.
 # @abstract
-#   $DESCRIPTION$.
+#   Declares a Data class interface.
 class DataInt
   VERSION = '0.1.0'.freeze()
 end

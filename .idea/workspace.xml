@@ -26,24 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63804b91-0559-4712-bae3-cb8ab9e2d45f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_int.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_int.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data_int.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data_int/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data_int_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +59,42 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
+  <component name="RunManager">
+    <configuration name="DataIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.DataIntTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -81,11 +106,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585411750118</updated>
-      <workItem from="1585411752900" duration="1338000" />
+      <workItem from="1585411752900" duration="6990000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository.">
+      <created>1585413227539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585413227539</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository.">
+      <created>1585413244279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585413244279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Data Sprints: 1 #Setup " />
+        <option name="defaultSearch" value="project: Data Sprints: 1 #Documenting " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -93,38 +133,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="443" y="175" key="#Servers" timestamp="1585411874578">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585411874578" />
-    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1585413227110">
+    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1585413244012">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="437" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585413227110" />
-    <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1585412610815">
+    <state x="437" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585413244012" />
+    <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1585416534901">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585412610815" />
-    <state width="1539" height="271" key="GridCell.Tab.0.center" timestamp="1585412610814">
+    <state width="1539" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585416534901" />
+    <state width="1539" height="271" key="GridCell.Tab.0.center" timestamp="1585416534900">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585412610814" />
-    <state width="1539" height="271" key="GridCell.Tab.0.left" timestamp="1585412610814">
+    <state width="1539" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585416534900" />
+    <state width="1539" height="271" key="GridCell.Tab.0.left" timestamp="1585416534900">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585412610814" />
-    <state width="1539" height="271" key="GridCell.Tab.0.right" timestamp="1585412610814">
+    <state width="1539" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585416534900" />
+    <state width="1539" height="271" key="GridCell.Tab.0.right" timestamp="1585416534901">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585412610814" />
-    <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585412872967">
+    <state width="1539" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585416534901" />
+    <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585413336256">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585412872967" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585412896565">
+    <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585413336256" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585433334424">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585412896565" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585433334424" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_int@DataIntTest.rcov" NAME="DataIntTest Coverage Results" MODIFIED="1585416448777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_int" />
   </component>
 </project>

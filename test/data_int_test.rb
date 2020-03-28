@@ -5,6 +5,8 @@ require_relative 'test_helper'
 #   Tests the DataInt class.
 class DataIntTest < Minitest::Test
 
+  CLASS = DataInt
+
   # test_conf_doc_f_ex().
   # @abstract
   #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, and 
@@ -30,6 +32,21 @@ class DataIntTest < Minitest::Test
   # @abstract
   #   Set fixtures.
   def setup()
+  end
+
+  # test_methods_dec().
+  # @abstract
+  #   self.instance?() and self.type?() were declared.
+  def test_methods_dec()
+    assert_respond_to(CLASS, 'instance?')
+    assert_respond_to(CLASS, 'type?')
+  end
+
+  # test_cons_undef().
+  # @abstract
+  #   The constructor is inaccessible.
+  def test_cons_undef()
+    refute_respond_to(CLASS, 'initialize')
   end
 
   # teardown().
