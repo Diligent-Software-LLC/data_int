@@ -5,29 +5,38 @@ require_relative "data_int/version"
 
 # DataInt.
 # @abstract
-#   Declares a Data class interface.
+# @class_description
+#   Declares a DataType class interface.
 class DataInt
 
   undef initialize
 
+  # self.types().
+  # @description
+  #   Gets the DataTypes.
+  # @return [Array]
+  #   The TYPES reference.
+  def self.types()
+  end
+
   # self.instance?(obj = nil).
-  # @abstract
-  #   Boolean. Verifies an object is a data type instance.
-  # @param [*] obj
+  # @description
+  #   Predicate. Verifies an object is a DataType type instance.
+  # @param obj [.]
   #   Any object.
-  # @return [TrueClass, FalseClass] boolean
+  # @return [TrueClass, FalseClass]
   #   True in the case the argument is a Numeric, FalseClass, Symbol,
-  #   TrueClass, String, Time, or NilClass object. False otherwise.
+  #   TrueClass, or NilClass object. False otherwise.
   def self.instance?(obj = nil)
   end
 
   # self.type?(type = nil).
-  # @abstract
-  #   Boolean method. Verifies a type is a data type.
-  # @param [*] type
-  #   A class name.
+  # @description
+  #   Predicate. Verifies a type is a DataType.
+  # @param type [.]
+  #   Any identifier.
   # @return [TrueClass, FalseClass]
-  #   True in the case the type is a data type. False otherwise.
+  #   True in the case the type is a DataType. False otherwise.
   def self.type?(type = nil)
   end
 

@@ -1,14 +1,16 @@
 # data_int [![Gem Version](https://badge.fury.io/rb/data_int.svg)](https://badge.fury.io/rb/data_int) ![Gem](https://img.shields.io/gem/dt/data_int) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/data_int.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/data_int)
 
-A Data class interface.
+A DataType class interface.
 
 ## Installation
 
-- Refer the [packages](https://docs.diligentsoftware.org/data-1/packages) page.
+- Refer the Interface 
+[Packages](https://docs.diligentsoftware.org/data-1/packages#interface).
 
 ## Documentation
 
-- Refer the [Interface](https://docs.diligentsoftware.org/data-1/interface) homepage.
+- Refer the [Interface](https://docs.diligentsoftware.org/data-1/interface) 
+homepage.
 
 ## Contributing
 
@@ -21,8 +23,10 @@ donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
 
 ### Report Bugs
 
-- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_int/issues/1).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_int/issues/1).
 
 ### Fix Bugs
 
-- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_int/issues/2).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_int/issues/2).

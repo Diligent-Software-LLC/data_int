@@ -26,10 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63804b91-0559-4712-bae3-cb8ab9e2d45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_int.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ytplugin.issueListCompactView" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="cp ../&quot;Template Files&quot;/.yardopts .yardopts" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="DataIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -118,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585411750118</updated>
       <workItem from="1585411752900" duration="9193000" />
-      <workItem from="1587776549871" duration="430000" />
+      <workItem from="1587776549871" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository.">
       <created>1585413227539</created>
@@ -148,10 +154,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585435564761</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setup Complete&#10;&#10;Fixed version.rb's YARDocumentation. Bumped Minor Version. Formatted Gem Specification file. Fixed Gem Specification attributes 'license' and 'changelog_uri'. Updated dependencies.">
+      <created>1587777166776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587777166776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Interface Sprints: 4 State: Setup " />
+        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Interface Sprints: 4 State: Development " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -176,7 +189,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository." />
     <MESSAGE value="Documenting Complete&#10;&#10;Documented." />
     <MESSAGE value="GNU General Public License&#10;&#10;Updated License." />
-    <option name="LAST_COMMIT_MESSAGE" value="GNU General Public License&#10;&#10;Updated License." />
+    <MESSAGE value="Setup Complete&#10;&#10;Fixed version.rb's YARDocumentation. Bumped Minor Version. Formatted Gem Specification file. Fixed Gem Specification attributes 'license' and 'changelog_uri'. Updated dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Fixed version.rb's YARDocumentation. Bumped Minor Version. Formatted Gem Specification file. Fixed Gem Specification attributes 'license' and 'changelog_uri'. Updated dependencies." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -188,26 +202,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="580" y="358" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.975@0.23.1680.975" timestamp="1585435403750" />
-    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1585435564472">
+    <state x="118" y="73" width="1405" height="870" key="CommitChangelistDialog2" timestamp="1587778558240">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="437" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585435564472" />
-    <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1587776974864">
+    <state x="118" y="73" width="1405" height="870" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587778558240" />
+    <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1587778352215">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587776974864" />
-    <state width="1539" height="271" key="GridCell.Tab.0.center" timestamp="1587776974863">
+    <state width="1539" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587778352215" />
+    <state width="1539" height="271" key="GridCell.Tab.0.center" timestamp="1587778352214">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587776974863" />
-    <state width="1539" height="271" key="GridCell.Tab.0.left" timestamp="1587776974863">
+    <state width="1539" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587778352214" />
+    <state width="1539" height="271" key="GridCell.Tab.0.left" timestamp="1587778352213">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587776974863" />
-    <state width="1539" height="271" key="GridCell.Tab.0.right" timestamp="1587776974863">
+    <state width="1539" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587778352213" />
+    <state width="1539" height="271" key="GridCell.Tab.0.right" timestamp="1587778352214">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587776974863" />
+    <state width="1539" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587778352214" />
     <state x="352" y="149" key="SettingsEditor" timestamp="1585435408518">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -220,12 +234,16 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585413336256" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587776883353">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1587777769280">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587776883353" />
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587777769280" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587778467351">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587778467351" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_int@DataIntTest.rcov" NAME="DataIntTest Coverage Results" MODIFIED="1585435597408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_int" />
+    <SUITE FILE_PATH="coverage/data_int@DataIntTest.rcov" NAME="DataIntTest Coverage Results" MODIFIED="1587778349578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_int" />
   </component>
 </project>

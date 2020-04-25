@@ -2,6 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 # DataInt.
+# @abstract
 # @class_description
 #   Declares a DataType class interface.
 class DataInt
