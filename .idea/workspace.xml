@@ -26,11 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63804b91-0559-4712-bae3-cb8ab9e2d45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="279" />
+    <option name="myElementSize" value="319" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -124,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585411750118</updated>
       <workItem from="1585411752900" duration="9193000" />
-      <workItem from="1587776549871" duration="1803000" />
+      <workItem from="1587776549871" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository.">
       <created>1585413227539</created>
@@ -161,10 +157,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587777166776</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Development Complete&#10;&#10;Fixed data_int.rb YARDocumentation. Added 'self.types()'. Fixed data_int_test.rb YARDocumentation. Added a .yardopts file assertion. Added a 'self.types()' method declaration assertion. Deleted Travis CI deployment settings. Fixed README.md's Installation section. Added a .yardopts file.">
+      <created>1587778828706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587778828707</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Interface Sprints: 4 State: Development " />
+        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Interface Sprints: 4 State:{ Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -190,7 +193,8 @@
     <MESSAGE value="Documenting Complete&#10;&#10;Documented." />
     <MESSAGE value="GNU General Public License&#10;&#10;Updated License." />
     <MESSAGE value="Setup Complete&#10;&#10;Fixed version.rb's YARDocumentation. Bumped Minor Version. Formatted Gem Specification file. Fixed Gem Specification attributes 'license' and 'changelog_uri'. Updated dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Fixed version.rb's YARDocumentation. Bumped Minor Version. Formatted Gem Specification file. Fixed Gem Specification attributes 'license' and 'changelog_uri'. Updated dependencies." />
+    <MESSAGE value="Development Complete&#10;&#10;Fixed data_int.rb YARDocumentation. Added 'self.types()'. Fixed data_int_test.rb YARDocumentation. Added a .yardopts file assertion. Added a 'self.types()' method declaration assertion. Deleted Travis CI deployment settings. Fixed README.md's Installation section. Added a .yardopts file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Fixed data_int.rb YARDocumentation. Added 'self.types()'. Fixed data_int_test.rb YARDocumentation. Added a .yardopts file assertion. Added a 'self.types()' method declaration assertion. Deleted Travis CI deployment settings. Fixed README.md's Installation section. Added a .yardopts file." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -202,10 +206,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="580" y="358" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.975@0.23.1680.975" timestamp="1585435403750" />
-    <state x="118" y="73" width="1405" height="870" key="CommitChangelistDialog2" timestamp="1587778558240">
+    <state x="118" y="73" width="1405" height="870" key="CommitChangelistDialog2" timestamp="1587778828480">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="118" y="73" width="1405" height="870" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587778558240" />
+    <state x="118" y="73" width="1405" height="870" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587778828480" />
     <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1587778352215">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
