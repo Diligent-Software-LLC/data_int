@@ -27,8 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="63804b91-0559-4712-bae3-cb8ab9e2d45f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_int.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_int/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="279" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZlRZXVNgIrCP4AcRZIKY0x6Alv" />
@@ -55,6 +68,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ytplugin.issueListCompactView" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="DataIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -103,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585411750118</updated>
-      <workItem from="1585411752900" duration="8424000" />
+      <workItem from="1585411752900" duration="9193000" />
+      <workItem from="1587776549871" duration="430000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository.">
       <created>1585413227539</created>
@@ -126,10 +141,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585433745059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GNU General Public License&#10;&#10;Updated License.">
+      <created>1585435564761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585435564761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Data Sprints: 1 #{Prepare Deploy} " />
+        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Interface Sprints: 4 State: Setup " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -142,7 +164,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -151,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Regenerated files, configured the gem specification, and pinned issue templates in the remote repository." />
     <MESSAGE value="Documenting Complete&#10;&#10;Documented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Documenting Complete&#10;&#10;Documented." />
+    <MESSAGE value="GNU General Public License&#10;&#10;Updated License." />
+    <option name="LAST_COMMIT_MESSAGE" value="GNU General Public License&#10;&#10;Updated License." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -163,44 +188,44 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="580" y="358" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.975@0.23.1680.975" timestamp="1585435403750" />
-    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1585433744701">
+    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1585435564472">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="437" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585433744701" />
-    <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1585416534901">
+    <state x="437" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585435564472" />
+    <state width="1539" height="271" key="GridCell.Tab.0.bottom" timestamp="1587776974864">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585416534901" />
-    <state width="1539" height="271" key="GridCell.Tab.0.center" timestamp="1585416534900">
+    <state width="1539" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587776974864" />
+    <state width="1539" height="271" key="GridCell.Tab.0.center" timestamp="1587776974863">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585416534900" />
-    <state width="1539" height="271" key="GridCell.Tab.0.left" timestamp="1585416534900">
+    <state width="1539" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587776974863" />
+    <state width="1539" height="271" key="GridCell.Tab.0.left" timestamp="1587776974863">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585416534900" />
-    <state width="1539" height="271" key="GridCell.Tab.0.right" timestamp="1585416534901">
+    <state width="1539" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587776974863" />
+    <state width="1539" height="271" key="GridCell.Tab.0.right" timestamp="1587776974863">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585416534901" />
+    <state width="1539" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587776974863" />
     <state x="352" y="149" key="SettingsEditor" timestamp="1585435408518">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="352" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1585435408518" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585433784730">
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585436011808">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585433784730" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585436011808" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585413336256">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585413336256" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585433334424">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587776883353">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585433334424" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587776883353" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_int@DataIntTest.rcov" NAME="DataIntTest Coverage Results" MODIFIED="1585416448777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_int" />
+    <SUITE FILE_PATH="coverage/data_int@DataIntTest.rcov" NAME="DataIntTest Coverage Results" MODIFIED="1585435597408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_int" />
   </component>
 </project>

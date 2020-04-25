@@ -2,8 +2,8 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 # DataInt.
-# @abstract
-#   Declares a Data class interface.
+# @class_description
+#   Declares a DataType class interface.
 class DataInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '0.2.0'.freeze()
 end
